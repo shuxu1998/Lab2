@@ -146,15 +146,19 @@
         <p>For textarea:</p>
          <label for="food">Tell us your faviorute food:</label>
         
-        <textarea id="food"name="food"rows="4"cols="33">
-              My faviorite food is Chinese food!
+        <textarea name="food" id="food" cols="30" rows="5">
+            My faviorite food is Chinese food!
         </textarea>
         <p>For datalist:</p>
             <div>
-                <label for="food-choice">Choose a food type:</label>
-                <input list="food-choice-type"id="food-choice"name="food-choice"/>
-                <datalist id="food-choice-type"><option value="Chinese food"><option value="Korean food"><option value="Indian food">
+                <label for="food-choice">choose your faviorite food</label>
+                <input list="food-list" id="food-choice" name="food-choice" />
+                <datalist id="food-list">
+                    <option value="Chinese">
+                    <option value="Indian">
+                    <option value="Korean">
                 </datalist>
+
             </div>
         <p>For select:</p>
             <div>
