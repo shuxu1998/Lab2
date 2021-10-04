@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>New:food Channel direction Discussion</title>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <h1>New: food Channel direction Discussion </h1>
+        <h2>Attendance list:</h2>
+        <ol>
+            <li>Doris</li>
+            <li>Howard</li>
+            <li>Joe</li>
+        </ol>
+        <h4>Date: 04/October/2021</h4>
+    </head>
+    <body>
+        <header>
+            <div>Link</div>    
+            <nav>
+                <ul>
+                    <li><a href="#Agenda">Agenda</a></li>
+                    <li><a href="#unfinished business from last meeting">Unfinished business from last meeting </a></li>
+                    <li><a href="#New direction"> New direction</a></li>
+                    <li><a href="#Follow up question">Follow up question</a></li>
+                </ul>
+             </nav>
+    </header>
+    <main>
+        <section>
+            <h2 id="Agenda">Agenda</h2>
+            <div>
+                <details>
+                    <summary>Channel <b>Main theme</b></summary>
+                    <p>The Channel main theme is to explore good food around the world.
+                        <br>For now we are focuing on the USA area.
+
+                    </p>
+                </details>
+                <details>
+                    <summary>What is the main <b>Location</b></summary>
+                    <em>Los Angeles</em> 
+                </details>
+                <details>
+                    <summary>What is the new <b>exploring direction</b></summary>
+                    <em>Korean Food</em>
+                </details>
+            </div>
+        </section>
+        <section>
+            <h2 id="Unfinished business from last meeting">Unfinished business from last meeting</h2>
+            <p>
+                <strong>Note:Last time the group havent decide which city should we explore, but in this meeting, the final location will be LA.</strong> 
+            </p>
+
+        </section>
+        <section>
+            <h2 id="New direction">New direction</h2>
+            <p>
+                In the meeting, the new thing is helping 
+                the group to decide what food type should we choose in LA.
+                <span>Here is some pictures provided by the markering apartnments:</span>
+                <hr>
+                <img src="/PHOTO-2021-07-04-11-24-59.jpg" alt="provided food" width="200"/>
+                <hr>
+                <p>Here are the recored meeting audio about new direction</p>
+                <figure>
+                    <figcaption> <i>Listen to the audio:</i></figcaption>
+                    <audio
+                        controls
+                        src="/lab2 audio.m4a">
+                             browser does not support the
+                            <code>audio</code> element.
+                    </audio>
+                </figure>
+                <hr>
+                <p>Here are the recored video about the new direction part:</p>
+                <hr>
+                <video controls width="200">
+                    <source src="/lab2video.MP4"
+                    type="video/mp4">
+                    
+
+                
+                    Sorry, your browser doesn't support embedded videos.
+                </video>
+            </p>
+        </section>
+        <section>
+            <h4>Any miscellaneous comments / questions / concerns that anyone would like to bring up?</h2>
+                <p><b>No</b></p>
+        </section>
+        <section>
+            <h2 id="Follow up question">Follow up question</h2>
+            <details>
+                <summary>What is the budget for the new channel?</summary>
+                4000 USD
+            </details>
+            </p>
+        </section>
+    </main>
+        <footer>
+            <h4>Subscribe the page</h6>
+            <form onsubmit="alert('Subscribed')">
+              <input type="text" placeholder="Enter Email Address" />
+              <button>Submit</button>
+            </form>
+
+        </footer>
+    </body>
+    <p>Below is the simple form</p>
+    <div class ="form">
+        <p>For fieldset</p>
+        <form>
+            <fieldset>
+            <legend>Choose your favorite food type in LA</legend>
+          
+            <input type="radio" id="Korean food" name="food">
+            <label for="Korean food">Korean food</label><br/>
+          
+            <input type="radio" id="Chinese food" name="food">
+            <label for="Chinese food">Chinese food/label><br/>
+          
+            <input type="radio" id="Indian food" name="food">
+            <label for="Indian food">Indian food</label>
+            </fieldset>
+        </form>
+
+        <p>For Input:</p>
+            <div class="input">
+                <p>Checkbox:</p>
+                <ol>
+                    <li><input type="checkbox" /> I like Chinese food!</li>
+                    <li><input type="checkbox" /> I like Korean food!</li>
+                    <li><input type="checkbox" /> I like Indian food!</li>
+                </ol>
+    
+                <p>date:</p>
+                <div>
+                    <label for="start">Start date:</label>
+                    <input type="date" id="start" name="trip-start" value="2021-10-04" min="2021-01-01" max="2021-12-31">
+                 </div>
+    
+                <p>text:</p>
+                <label for="Your faviorite food">faviorite food(4 to 8 characters):</label>
+                <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
+                <p>radio shown on the subscribe part</p>
+    
+            </div>
+        <p>For textarea:</p>
+         <label for="food">Tell us your faviorute food:</label>
+        
+        <textarea id="food" name="food"rows="4" cols="33">
+              My faviorite food is Chinese food!
+        </textarea>
+        <p>For datalist:</p>
+            <div>
+                <label for="food-choice">Choose a food type:</label>
+                <input list="food-choice-type" id="food-choice" name="food-choice" />
+                <datalist id="food-choice-type">
+                    <option value="Chinese food">
+                    <option value="Korean food">
+                    <option value="Indian food">
+                </datalist>
+            </div>
+        <p>For select:</p>
+            <div>
+                <label for="food-select">Choose a food type:</label>
+                <select name="food" id="food-select">
+                    <option value="">--Please choose an option--</option>
+                    <option value="dog">Indian food</option>
+                    <option value="cat">Chinese food</option>
+                    <option value="hamster">Korean food</option>
+                    
+                </select>
+            </div>    
+         
+    </div>
+</html>
